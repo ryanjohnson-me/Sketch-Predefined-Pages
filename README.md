@@ -10,7 +10,7 @@ Quickly adds a set number of predefined pages to your Sketch document.
 
 ✏️️ v1
 
-✂️️ Export
+✂️️ Exports
 
 Symbols
 
