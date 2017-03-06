@@ -1,0 +1,18 @@
+var predefined_pages = function (context) {
+
+  var doc = context.document;
+  var pages = [
+    "💀 RIP",
+    "🚧 Wireframes",
+    "✏️️ v1",
+    "✂️️ Export",
+    "Symbols",
+    "🌈 Principle Export"
+  ];
+
+  for(var i = 0; i < pages.length; i++){
+    var newPage = doc.addBlankPage();
+    newPage.setName(pages[i]);
+  }
+
+};

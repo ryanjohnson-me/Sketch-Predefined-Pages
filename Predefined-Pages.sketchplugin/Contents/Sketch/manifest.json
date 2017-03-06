@@ -1,0 +1,23 @@
+{
+  "author" : "Ryan Johnson",
+  "commands" : [
+    {
+      "script" : "predefined_pages.cocoascript",
+      "handler": "predefined_pages",
+      "shortcut" : "cmd option p",
+      "name" : "Run it bro",
+      "identifier" : "predefined_pages"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "predefined_pages"
+    ],
+    "title" : "Predefined Pages"
+  },
+  "compatibleVersion": "42",
+  "version" : "0.1",
+  "description" : "predefined pages",
+  "authorEmail" : "contact@ryanjohnson.me",
+  "name" : "Predefined Pages"
+}
