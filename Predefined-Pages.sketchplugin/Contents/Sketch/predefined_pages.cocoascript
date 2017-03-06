@@ -5,7 +5,7 @@ var predefined_pages = function (context) {
     "💀 RIP",
     "🚧 Wireframes",
     "✏️️ v1",
-    "✂️️ Export",
+    "✂️️ Exports",
     "Symbols",
     "🌈 Principle Export"
   ];
