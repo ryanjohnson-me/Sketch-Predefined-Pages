@@ -1,18 +1,34 @@
-var predefined_pages = function (context) {
+@import '../lib/utils.js';
 
-  var doc = context.document;
-  var pages = [
-    "💀 RIP",
-    "🚧 Wireframes",
-    "✏️️ v1",
-    "✂️️ Exports",
-    "Symbols",
-    "🌈 Principle Export"
-  ];
+var presets = {
+  savedPages: "💀 RIP, 🚧 Wireframes, ✏️️ v1, ✂️️ Exports, Symbols, 🌈 Principle Export"
+}
 
-  for(var i = 0; i < pages.length; i++){
-    var newPage = doc.addBlankPage();
-    newPage.setName(pages[i]);
+var pluginDomain = "com.ryanjohnson.predefinedpages";
+var userDefaults = initDefaults(pluginDomain, presets);
+
+var define_predefined_pages = function (context) {
+  var doc = context.document
+  var pages = userDefaults.savedPages;
+  var setPages = doc.askForUserInput_initialValue("Enter your pages (Separated by comma)", pages);
+
+  if (setPages) {
+    userDefaults.savedPages = setPages; 
+    saveDefaults(userDefaults); //Save users pages
   }
+}
 
-};
+var predefined_pages = function (context) {
+  var doc = context.document;
+  var pages = userDefaults.savedPages;
+  var pagesArray = pages.split(',');
+
+  for(var i = 0; i < pagesArray.length; i++){
+    var newPage = doc.addBlankPage();
+    newPage.setName(pagesArray[i]);
+  }
+}
+
+var reset = function (context) {
+  saveDefaults(presets);
+}

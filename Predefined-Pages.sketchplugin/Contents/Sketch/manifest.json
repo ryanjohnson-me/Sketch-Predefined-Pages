@@ -5,13 +5,28 @@
       "script" : "predefined_pages.cocoascript",
       "handler": "predefined_pages",
       "shortcut" : "cmd option p",
-      "name" : "Run it bro",
+      "name" : "Run",
       "identifier" : "predefined_pages"
+    },
+    {
+      "script" : "predefined_pages.cocoascript",
+      "handler": "define_predefined_pages",
+      "shortcut" : "cmd option d",
+      "name" : "Edit Pages",
+      "identifier" : "define_predefined_pages"
+    },
+    {
+      "script" : "predefined_pages.cocoascript",
+      "handler": "reset",
+      "name" : "Revert to Default Pages",
+      "identifier" : "reset"
     }
   ],
   "menu" : {
     "items" : [
-      "predefined_pages"
+      "predefined_pages",
+      "define_predefined_pages",
+      "reset"
     ],
     "title" : "Predefined Pages"
   },
