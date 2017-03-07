@@ -1,8 +1,8 @@
 # Sketch Plugin: Predefined Pages
 
-Quickly adds a set number of predefined pages to your Sketch document.
+Quickly adds a set number of pre/user defined pages to your Sketch document.
 
-#### Currently adds the pages:
+#### Default Pages (Can be changed)
 ```
 💀 RIP
 
@@ -17,15 +17,12 @@ Symbols
 🌈 Principle Export
 ```
 
-**Note:** The array of pages can be updated. Simply open up the `Predefined-Pages.sketchplugin` 
-file in your favorite code editor and update the `pages` array.
-_Will make this easier in the future._
-
 #### Tested on Sketch 42
 
 
 ## Shortcuts
-* Run it: `CMD OPTION P`
+* Run: `CMD OPTION P`
+* Edit Pages: `CMD OPTION D`
 
 ## Installation
 1. <a href="https://github.com/ryanjohnson-me/Sketch-Predefined-Pages/archive/master.zip">Download Pugin (.zip)</a> and unzip
