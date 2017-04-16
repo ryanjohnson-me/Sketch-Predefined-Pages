@@ -25,6 +25,10 @@ Symbols
 * Edit Pages: `CMD OPTION D`
 
 ## Installation
+#### Easy Way
+[![Install Predefined Pages with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install Predefined Pages with Sketchpacks")](https://sketchpacks.com/ryanjohnson-me/Sketch-Predefined-Pages/install)
+
+#### Annoying Way
 1. <a href="https://github.com/ryanjohnson-me/Sketch-Predefined-Pages/archive/master.zip">Download Pugin (.zip)</a> and unzip
 2. Double click `Predefined-Pages.sketchplugin` to install
 
