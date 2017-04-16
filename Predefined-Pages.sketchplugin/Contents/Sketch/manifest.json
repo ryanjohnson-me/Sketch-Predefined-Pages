@@ -30,6 +30,7 @@
     ],
     "title" : "Predefined Pages"
   },
+  "identifier": "com.example.sketch.predefined-pages",
   "compatibleVersion": "42",
   "version" : "0.1",
   "description" : "predefined pages",
